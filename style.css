@@ -1,0 +1,43 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: larger;
+    background-color: lightcyan;
+}
+
+.header {
+    background-color: seagreen;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.picture {
+    text-align: center;
+}
+
+.picture img {
+    border: black solid;
+}
+
+nav ul {
+    background-color: darkseagreen;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline-block;
+    padding: 8px 8px;
+}
+
+nav a {
+    color: darkslategray;
+    text-align: center;
+    text-decoration: none;
+    padding: 18px 16px;
+}
+
+nav li a:hover {
+    background-color: darkolivegreen;
+}
