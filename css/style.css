@@ -2,8 +2,14 @@ body {
     font-family: 'Work Sans', sans-serif;
     font-size: larger;
     background-color: lightcyan;
-    overflow: hidden;
+    -ms-overflow-style: none; /* Remove scroll bar (Edge)*/
+    scrollbar-width: none; /* Remove scroll bar (Firefox)*/
 }
+
+body::-webkit-scrollbar {
+    display: none; /* Remove scroll bar (Chrome and Safari) */
+}
+
 
 .header {
     background-color: seagreen;
