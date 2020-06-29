@@ -28,7 +28,9 @@ body::-webkit-scrollbar {
 .document {
     text-align: center;
     padding: 50px 400px;
+    padding: 2vw 22vw;
     height: 1000px;
+    height: 60vw;
 }
 
 nav ul {
