@@ -18,6 +18,12 @@ body {
     border: black solid;
 }
 
+.document {
+    text-align: center;
+    padding: 50px 400px;
+    height: 1000px;
+}
+
 nav ul {
     background-color: darkseagreen;
     list-style-type: none;
