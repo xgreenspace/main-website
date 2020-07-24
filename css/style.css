@@ -10,6 +10,10 @@ body::-webkit-scrollbar {
     display: none; /* Remove scroll bar (Chrome and Safari) */
 }
 
+.body {
+    display: flex;
+    flex-direction: column;
+}
 
 .header {
     background-color: seagreen;
